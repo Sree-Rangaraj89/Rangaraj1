@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Projects | SREE RANGARAJ — Developer Portfolio</title>
+<meta name="description" content="See all my projects: Custom OS, Weblyx, Notlyx, Buildlyx, ML models, security tools. From concept to production.">
+<meta name="keywords" content="projects, custom OS, weblyx, notlyx, buildlyx, python projects, machine learning, security tools">
+<meta name="author" content="Sree Rangaraj K">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#F5F5F5">
+<link rel="canonical" href="https://rangaraj.site/projects.html">
+<meta property="og:site_name" content="rangaraj.site">
+<meta property="og:title" content="Projects | SREE RANGARAJ">
+<meta property="og:description" content="Custom OS, Weblyx, Notlyx, Buildlyx, ML models and security tools — from concept to production.">
+<meta property="og:image" content="https://rangaraj.site/assets/og.png">
+<meta property="og:url" content="https://rangaraj.site/projects.html">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Projects | SREE RANGARAJ">
+<meta name="twitter:description" content="Custom OS, Weblyx, Notlyx, Buildlyx, ML models and security tools.">
+<meta name="twitter:image" content="https://rangaraj.site/assets/og.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=IBM+Plex+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/site.css">
+<script>try{var t=localStorage.getItem('rj-theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="theme-sweep" aria-hidden="true"></div>
+
+<button class="cord" type="button" aria-label="Toggle dark and light theme">
+  <span class="cord__hint">pull for dark</span>
+  <span class="cord__rail"></span>
+  <span class="cord__swing"><span class="cord__string"></span><span class="cord__knob">NGT</span></span>
+</button>
+
+<header class="nav">
+  <div class="nav__in">
+    <a class="nav__logo" href="index.html"><b>R</b> RANGARAJ<span class="sr">.site</span></a>
+    <button class="nav__burger" type="button" aria-expanded="false" aria-controls="navlinks"><span>MENU</span></button>
+    <nav class="nav__links" id="navlinks" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html" aria-current="page">Projects</a>
+      <a href="links.html">Ecosystem</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+<section class="phead">
+  <div class="wrap">
+    <p class="crumb"><a href="index.html">Home</a> / Projects</p>
+    <h1>Projects</h1>
+    <p class="lead">Eight things I've built or am building. Three are live products with real users. One is an operating system. Nothing here is a tutorial clone.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="filters" role="group" aria-label="Filter projects by category">
+      <button type="button" data-filter="all"      aria-pressed="true">All <span class="cnt">8</span></button>
+      <button type="button" data-filter="os"       aria-pressed="false">OS <span class="cnt">1</span></button>
+      <button type="button" data-filter="web"      aria-pressed="false">Web <span class="cnt">4</span></button>
+      <button type="button" data-filter="ml"       aria-pressed="false">ML <span class="cnt">3</span></button>
+      <button type="button" data-filter="security" aria-pressed="false">Security <span class="cnt">4</span></button>
+      <button type="button" data-filter="hardware" aria-pressed="false">Hardware <span class="cnt">1</span></button>
+    </div>
+
+    <div class="work" id="grid">
+      <article class="card rv" id="os" data-tags="os security">
+        <div class="card__top"><span class="card__idx">01</span><span class="card__st st--wip">60% Complete</span></div>
+        <h3>Custom OS</h3>
+        <p>Building a completely custom operating system from the ground up. Bootloader, kernel, file systems, process management, memory management. The passion project — deep in the metal, and the reason I care about how computers actually work.</p>
+        <div class="prog" role="img" aria-label="60 percent complete"><i data-p="60"></i><b>60%</b></div>
+        <div class="card__tech"><span>Assembly</span><span>C</span><span>QEMU</span><span>Bootloaders</span><span>Linux</span></div>
+        <span class="card__go">In development · no public repo yet</span>
+      </article>
+
+      <article class="card rv" style="--d:60ms" data-tags="web">
+        <div class="card__top"><span class="card__idx">02</span><span class="card__st st--live">Live</span></div>
+        <h3>Notlyx</h3>
+        <p>Knowledge for the modern reader. A digital platform for selling and sharing curated e-books — instant WhatsApp delivery, no complicated checkout. 100+ learners, 4.9 average rating. My first entrepreneurial venture.</p>
+        <div class="card__tech"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Vercel</span></div>
+        <a class="card__go" href="https://notlyx.rangaraj.site" target="_blank" rel="noopener">notlyx.rangaraj.site <span class="arw" aria-hidden="true">↗</span></a>
+      </article>
+
+      <article class="card rv" style="--d:120ms" data-tags="web">
+        <div class="card__top"><span class="card__idx">03</span><span class="card__st st--active">Active</span></div>
+        <h3>Weblyx</h3>
+        <p>A small studio for custom websites. No templates, no bloated agency overhead, no jargon — hand-built sites that look like the business and quietly turn visitors into enquiries. Real clients on real deadlines.</p>
+        <div class="card__tech"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span></div>
+        <a class="card__go" href="https://weblyx.rangaraj.site" target="_blank" rel="noopener">weblyx.rangaraj.site <span class="arw" aria-hidden="true">↗</span></a>
+      </article>
+
+      <article class="card rv" style="--d:180ms" data-tags="web">
+        <div class="card__top"><span class="card__idx">04</span><span class="card__st st--live">Live</span></div>
+        <h3>Buildlyx</h3>
+        <p>Websites built to work, not just load. Sub-3-second load targets, 100% hand-coded, direct 1:1 contact. Six build types, form following function on every page.</p>
+        <div class="card__tech"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Performance</span></div>
+        <a class="card__go" href="https://buildlyx.rangaraj.site" target="_blank" rel="noopener">buildlyx.rangaraj.site <span class="arw" aria-hidden="true">↗</span></a>
+      </article>
+
+      <article class="card rv" style="--d:240ms" data-tags="security ml">
+        <div class="card__top"><span class="card__idx">05</span><span class="card__st st--done">Completed</span></div>
+        <h3>Password Cupp</h3>
+        <p>A password strength checker that scores entries and returns actionable recommendations instead of a vague colour bar. Built to understand what actually makes a credential weak.</p>
+        <div class="card__tech"><span>Python</span><span>JavaScript</span><span>Security</span></div>
+        <span class="card__go">Learning project · lab use only</span>
+      </article>
+
+      <article class="card rv" style="--d:300ms" data-tags="security ml">
+        <div class="card__top"><span class="card__idx">06</span><span class="card__st st--done">Completed</span></div>
+        <h3>Phish Detector</h3>
+        <p>A phishing link detector and awareness tool. Flags suspicious URLs and explains the signals behind the verdict. Defensive by design — built to teach people what to look for.</p>
+        <div class="card__tech"><span>Python</span><span>Machine Learning</span><span>Web Tech</span></div>
+        <span class="card__go">Ethics first · defensive tooling</span>
+      </article>
+
+      <article class="card rv" style="--d:360ms" data-tags="web">
+        <div class="card__top"><span class="card__idx">07</span><span class="card__st st--done">Completed</span></div>
+        <h3>Birthday Site Builder</h3>
+        <p>An animated, personalised birthday website generator. Enter a name and a message, get a shareable page with canvas animations. Small, silly, and genuinely used by friends.</p>
+        <div class="card__tech"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Canvas</span></div>
+        <span class="card__go">Personal tool · shared privately</span>
+      </article>
+
+      <article class="card rv" style="--d:420ms" data-tags="ml hardware security">
+        <div class="card__top"><span class="card__idx">08</span><span class="card__st st--wip">Ongoing</span></div>
+        <h3>Experiments</h3>
+        <p>A growing collection: trained ML models, Python automation scripts, Arduino and ESP32 sketches, web experiments. If a task repeats twice, something in here automates it.</p>
+        <div class="card__tech"><span>Python</span><span>TensorFlow</span><span>Arduino</span><span>ESP32</span></div>
+        <a class="card__go" href="https://github.com/Sree-Rangaraj89" target="_blank" rel="noopener">Browse GitHub <span class="arw" aria-hidden="true">↗</span></a>
+      </article>
+    </div>
+    <p class="noresult" hidden>No projects in that category yet.</p>
+  </div>
+</section>
+
+<section class="section" style="border-bottom:0">
+  <div class="wrap">
+    <div class="sec-head rv"><span class="num">→</span><h2>Want something built?</h2></div>
+    <div class="row">
+      <a class="btn btn--fill" href="contact.html">Start a Conversation <span aria-hidden="true">→</span></a>
+      <a class="btn btn--red" href="https://wa.me/918148592615" target="_blank" rel="noopener">WhatsApp Me <span aria-hidden="true">↗</span></a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="foot__grid">
+    <div class="foot__col">
+      <h4>Sree Rangaraj K</h4>
+      <p style="font-size:.84rem;color:var(--ink-soft);max-width:34ch">Grade 10 developer &amp; builder from Madurai. Practice first, theory later, build always.</p>
+      <p class="mono-label" style="margin-top:1rem">Madurai · TN · India</p>
+    </div>
+    <div class="foot__col">
+      <h4>Navigate</h4>
+      <a href="index.html">Home</a><a href="about.html">About</a><a href="projects.html">Projects</a><a href="links.html">Ecosystem</a><a href="contact.html">Contact</a>
+    </div>
+    <div class="foot__col">
+      <h4>Elsewhere</h4>
+      <a href="/cdn-cgi/l/email-protection#fb88899e9e899a959c9a899a91cabb9c969a9297d5989496"><span class="__cf_email__" data-cfemail="8cfffee9e9feede2ebedfeede6bdccebe1ede5e0a2efe3e1">[email&#160;protected]</span></a>
+      <a href="https://wa.me/918148592615" target="_blank" rel="noopener">WhatsApp ↗</a>
+      <a href="https://github.com/Sree-Rangaraj89" target="_blank" rel="noopener">GitHub ↗</a>
+      <a href="https://www.instagram.com/thisisrxnga_" target="_blank" rel="noopener">Instagram ↗</a>
+    </div>
+  </div>
+  <div class="foot__bar">
+    <span>© <span data-year>2026</span> Sree Rangaraj K</span>
+    <span>Built by hand · No templates</span>
+    <span>rangaraj.site</span>
+  </div>
+</footer>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/site.js"></script>
+</body>
+</html>
